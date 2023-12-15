@@ -13,7 +13,7 @@ const contactRoutes = require('./routes/contactRoute');
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(cors({
-    origin: ['http://localhost:3000/', 'https://arsath-cjpallazzio.com/']
+    origin: ['http://localhost:3000/', 'https://arsath-cjpallazzio.onrender.com/']
 }
 )); 
 
